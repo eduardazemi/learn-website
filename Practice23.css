@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111;
+}
+
+.project {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    font-family: Arial;
+}
+
+.header {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 60px;
+    transition: 0.8s;
+}
+
+li:hover {
+    color: #f00;
+    transform: translateY(-5px);
+    transition: 0.8s;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.popup .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+}
+        
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: lightblue;
+    width: 450px;
+    height: 150px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+        
+.popup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #111;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    }
+        
+.popup.active .overlay {
+    display: block;
+}
+        
+.popup.active .content {
+    transition: all 100ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s;
+}
+
+.p-tg {
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 1.4em;
+}
+
+
+.open-btn {
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.open-btn:hover {
+    color: #f00;
+    transition: 0.8s;
+    transform: translateY(-5px);
+}
+
+
+
+
+
+        
+.body {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+.p-fbutton {
+    font-family: Arial;
+    color: #fff;
+    font-size: 18px;
+}
+
+.first-button {
+    padding: 4px 4px 4px 4px;
+    width: 350px;
+    cursor: pointer;
+    height: 100px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #fff;
+    background: url('1.jpg');
+}
+     
+
+
+.learn {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.4s;
+}
+
+
+.learn1{
+    background-image: url(ww1.jpeg);
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+.learn2 {
+    background-image: url(ww2.jpeg);
+    cursor: pointer;
+}
+
+.learn3 {
+    background-image: url(napoleonwars.jpeg);
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+.learn4 {
+    background-image: url(octember.jpeg);
+    cursor: pointer;
+}
+
+.learn:hover {
+    transform: translateY(-12px);
+}     
+   
+
+
+
+
+
+

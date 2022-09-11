@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn</title>
+    <link rel="stylesheet" href="Practice23.css">
+</head>    
+<body>
+    <div class="project">
+        <div class="header">
+            <h1>LEARN</h1>
+            <nav>
+                <ul>
+                    <li onclick="openHome()"><a href="#"></a>Home</li>
+                    <div class="popup" id="popup-1">
+                       <div class="overlay"></div>
+                         <div class="content">
+                           <div onclick="togglePopup()" class="close-btn">&times;</div>
+                              <h3>About LEARN website</h3>
+                              <p class="p-tg">LEARN is a website where you can get
+                              information about lot of historical events</p>
+                          </div>
+                       </div>
+                    <div class="popup" id="popup-2">
+                       <div class="overlay"></div>
+                         <div class="content">
+                           <div onclick="togglePopup2()" class="close-btn">&times;</div>
+                              <h3>Messages Us</h3>
+                              <p class="p-tg">If you want to have any historical events
+                              in our website contact us in instagram
+                              learn_website</p>
+                          </div>
+                       </div>
+                    </ul>
+                 </nav>
+                 <div onclick="togglePopup()" class="open-btn">About</div>
+                 <div onclick="togglePopup2()" class="open-btn">Messages</div>
+             </div>
+             
+             <div class="body">
+                 <div class="col">
+                     <p class="p-fbutton">Click in this button to learn anything
+                     you want</p>
+                     <button onclick="firstButton()" class="first-button">Start To Learn</button>
+                 </div>
+                 
+                 <div class="col">
+                     <div class="learn learn1"></div>
+                     <div class="learn learn2"></div>
+                     <div class="learn learn3"></div>
+                     <div class="learn learn4"></div>
+                 </div>
+             </div>
+         </div>
+         
+        <script>
+        function togglePopup(){
+            document.getElementById("popup-1")
+            .classList.toggle("active");
+        }
+        
+        
+        function togglePopup2(){
+            document.getElementById("popup-2")
+            .classList.toggle("active");
+        }
+        
+        function openHome(){
+            window.location.href="Practice23.html"
+        }
+        
+        function firstButton(){
+            window.location.href="Practice23,2.html"
+        }
+        
+        </script>
+</body>    
+</html>

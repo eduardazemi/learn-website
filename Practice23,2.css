@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 1000px;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial;
+    font-size: 3em;
+}
+
+
+
+.learn {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    margin: 25px 15px;
+    transition: 0.7s;
+}
+
+.learn1 {
+    background: url('ww2.jpeg');
+}
+
+.learn2 {
+    background: url('ww1.jpeg');
+}
+
+.learn3 {
+    background: url('octember.jpeg');
+}
+
+.learn4 {
+    background: url('napoleonwars.jpeg');
+}
+
+.learn5 {
+    background: url('spain.jpeg');
+}
+
+.learn6 {
+    background: url('con.jpeg');
+}
+
+.learn7 {
+    background: url('vietnam.jpeg');
+}
+
+.learn8 {
+    background: url('balkan.jpeg');
+}
+
+.learn9 {
+    background: url('balkan2.jpeg');
+}
+
+.learn10 {
+    background: url('hitler.jpeg');
+}
+
+
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px;
+    margin-left: 60px;
+    background: #f00;
+    color: #fff;
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
