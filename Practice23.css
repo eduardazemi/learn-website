@@ -21,6 +21,7 @@ h1 {
     font-size: 3em;
     color: #fff;
     font-family: Arial;
+    cursor: pointer;
 }
 
 .header {
